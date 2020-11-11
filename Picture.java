@@ -62,13 +62,12 @@ public class Picture
         sun.moveVertical(140);
         sun.changeSize(80);
         sun.makeVisible();
-        sun.slowMoveVertical(-100);
+        sun.slowMoveVertical(-140);
         
-        
-
-        
-
-        
+    }
+    
+    public void atardecer(){
+        sun.slowMoveVertical(140);
     }
 
     /**
